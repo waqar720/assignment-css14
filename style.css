@@ -1,0 +1,41 @@
+/* sheetreset */
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+header{
+    background-color: #FAFAFA;
+    padding:1rem 0px ;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: #FAFAFA;
+}
+#logo a{
+    font-size: 24px;
+    color: #252B42;
+    font-weight: 700;
+    font-family: ;
+}
+.w-80{
+    width: 80%;
+    margin: auto;
+}
+nav ul{
+    display: flex;
+    column-gap: 25PX;
+    align-items: center;
+}
+li{
+    list-style: none;
+    
+}
+a{
+    text-decoration: none; 
+    font-weight: 700;
+    color: #737373;
+}
