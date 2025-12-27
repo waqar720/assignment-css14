@@ -6,7 +6,10 @@
 }
 header{
     background-color: #FAFAFA;
-    padding:1rem 0px ;
+    padding: 17px;
+    width: 100%;
+    position: fixed;
+    flex-wrap: wrap;
 }
 .row{
     display: flex;
@@ -19,23 +22,85 @@ header{
     font-size: 24px;
     color: #252B42;
     font-weight: 700;
-    font-family: ;
+
 }
 .w-80{
     width: 80%;
     margin: auto;
 }
-nav ul{
+nav ul {
+    position: relative;
+    right:  184px;
     display: flex;
     column-gap: 25PX;
     align-items: center;
 }
-li{
+li a{
     list-style: none;
+    color: #737373;
     
 }
 a{
     text-decoration: none; 
     font-weight: 700;
+}
+#login{
+    position: relative;
+    right: 100px;
+    align-items: center;
+    color: #96BB7C;
+}
+#b1{
+    padding: 15px 0px;
+    padding-left: 15px;
+    padding-right: 25px;
+    background-color: #96BB7C;
+    border-radius: 5px;
+}
+#b1 a{
+    color: #FAFAFA;
+}
+/* bg background */
+#text1{
+    position: relative;
+    top: 184px;
+    color: #96BB7C;
+}
+#text2{
+    position: relative;
+    top: 243px;
+    font-size: 58px;
+    color: #252B42;
+}
+#text3{
+    position: relative;
+    top: 300px;
+    font-size: 20px ;
     color: #737373;
 }
+#text4{
+    position: relative;
+    top: 400px;
+}
+#text5{
+    position: relative;
+    top: 400px;
+}
+
+/* .vector{ 
+    width: 600px;
+    position: relative;
+    left: 600px;    
+    top: 100px;
+}
+.vector1{
+    width: 52px;
+}
+.frame{
+    width: 600px;
+}
+.pic{
+    width: 500px;
+    position: relative;
+    top: 73.6px;
+     } */
