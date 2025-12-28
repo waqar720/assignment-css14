@@ -63,6 +63,7 @@ a{
 /* bg background */
 #text1{
     position: relative;
+    font-size: 16px;
     top: 184px;
     color: #96BB7C;
 }
@@ -74,17 +75,26 @@ a{
 }
 #text3{
     position: relative;
-    top: 300px;
+    top: 285px;
     font-size: 20px ;
     color: #737373;
 }
 #text4{
     position: relative;
-    top: 400px;
+    top: 330px;
+    padding: 15px 40px;
+    border-radius: 5px;
+    color: #FAFAFA;
+    background-color: #96BB7C ;
 }
 #text5{
     position: relative;
-    top: 400px;
+    top: 330px;
+    left: 5px;
+    padding: 15px 40px;
+    border-radius: 5px;
+    color: #96BB7C;
+    background-color: #FAFAFA ;
 }
 
 /* .vector{ 
